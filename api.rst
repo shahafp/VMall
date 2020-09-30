@@ -39,37 +39,59 @@ Returns a list of all current services tracked by Stashboard
 
 .. code-block:: js
 
-        {
-            "services": [
-                {
-                    "name": "Example Foo",
-                    "id": "example-foo",
-                    "description": "An explanation of this service"
-                    "url": "/api/v1/services/example-foo",
-                    "current-event": {
-                        'message': 'What an event!',
-                        'sid': 'ahJpc215d2Vic2VydmljZWRvd25yCwsSBUV2ZW50GA8M',
-                        'status': {
-                            'description': 'Hey, dude',
-                            'id': 'up',
-                            'image': '/images/status/tick-circle.png',
-                            'level': 'NORMAL',
-                            'name': 'Up',
-                            'url': '/statuses/up'
-                },
-                        'timestamp': 'Mon, 28 Jun 2010 22:17:06 GMT',
-                        'url': '/services/twilio/events/ahJpc215d2Vic2VydmljZWRvd25yCwsSBUV2ZW50GA8M'},
-
-                },
-                {
-                    "name": "Example Bar",
-                    "id": "example-bar",
-                    "description": "An explanation of this service"
-                    "url": "/api/v1/services/example-bar",
-                    "current-event": null,
-                }
+        [
+  {
+    "id": 11,
+    "mallName": "The Mall",
+    "users": [
+      {
+        "id": 1,
+        "fullName": "Meidan",
+        "userName": "Meidan",
+        "password": "Meidan",
+        "role": "Owner",
+        "personType": "Citizen"
+      }
+    ],
+    "stores": [
+      {
+        "id": 9,
+        "storeName": "shufersal",
+        "owners": [
+          {
+            "id": 1,
+            "fullName": "Meidan",
+            "userName": "Meidan",
+            "password": "Meidan",
+            "role": "Owner",
+            "personType": "Citizen"
+          }
+        ],
+        "catalogList": [
+          {
+            "id": 6,
+            "catalogName": "Top&Shirts",
+            "itemList": [
+              {
+                "id": 3,
+                "name": "Shirt",
+                "category": "Cloth",
+                "price": 15.5
+              }
+            ],
+            "categoryList": [
+              "Cloth"
             ]
-        }
+          },
+          "discountMap"
+          {
+            "soldier": 0.15,
+            "pensioner": 0.15,
+            "cripple": 0.15
+
+
+        ]
+
 
 
 POST 
