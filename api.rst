@@ -2,31 +2,8 @@
 REST API Documentation
 ========================
 
-The Stashboard REST API is split in two portions. The public facing REST API only responds to GET and lives at the ``/api/v1/`` endpoint. This API requires no authentication.
-
-The admin-only REST API lives at the ``/admin/api/v1/`` endpoint and responsds to GET, POST, PUT, and DELETE. You'll need to authenticate via OAuth. You can obtain your OAuth keys on the OAuth Credentials page at ``https://{application-id}.appspot.com/admin/credentials``
-
-Services 
-----------
-
-The Services resource represents all web services currently tracked via Stashboard.
-
-==============   ===============
-Property         Description
-==============   ===============
-id	         The unique identifier by which to identify the service
-name             The name of the service, defined by the user
-description      The description of the web service
-current-event    The current event for the service
-url	         The URL of the specific service resource
-==============   ===============
-
-List Resource
+Mall API
 ~~~~~~~~~~~~~~~
-
-.. code-block:: text
-
-    /admin/api/v1/services
 
 GET
 +++++
@@ -35,11 +12,11 @@ Returns a list of all current services tracked by Stashboard
 
 .. code-block:: bash
 
-   GET /admin/api/v1/services HTTP/1.1
+   GET /malls
 
 .. code-block:: js
 
-        [
+ [
   {
     "id": 11,
     "mallName": "The Mall",
@@ -83,116 +60,428 @@ Returns a list of all current services tracked by Stashboard
               "Cloth"
             ]
           },
-          "discountMap"
+          "discountMap":
           {
             "soldier": 0.15,
             "pensioner": 0.15,
             "cripple": 0.15
+           }
+       ]
 
 
-        ]
 
-
-
-POST 
+GET 
 ++++++
 
-Creates a new service (or updates an existing service) and returns the new service object.
+Get a specific store from the mall
 
 ==============   ===============
-Param            Description
+Variable            Description
 ==============   ===============
-name             Name of the service 
-description      Description of service 
+mallName         Name of the mall 
 ==============   ===============
 
 .. code-block:: text
 
-   POST /admin/api/v1/services HTTP/1.1 name=New%20Service&description=A%20great%20service
+   GET /getStore/{mallName} /getStore/The%20mall
 
 .. code-block:: js
 
-        {
-            "name": "New Service",
-            "id": "new-service",
-            "description": "A great service"
-            "url": "/api/v1/services/new-service",
-            "current-event": null,
+        [
+    {
+        "id": 9,
+        "storeName": "shufersal",
+        "owners": [
+            {
+                "id": 1,
+                "fullName": "Meidan",
+                "userName": "Meidan",
+                "password": "Meidan",
+                "role": "Owner",
+                "personType": "Citizen"
+            },
+            {
+                "id": 2,
+                "fullName": "bar",
+                "userName": "bar",
+                "password": "bar",
+                "role": "Customer",
+                "personType": "Soldier"
+            }
+        ],
+        "catalogList": [
+            {
+                "id": 6,
+                "catalogName": "Top&Shirts",
+                "itemList": [
+                    {
+                        "id": 3,
+                        "name": "Shirt",
+                        "category": "Cloth",
+                        "price": 15.5
+                    }
+                ],
+                "categoryList": [
+                    "Cloth"
+                ]
+            },
+            {
+                "id": 7,
+                "catalogName": "Kids",
+                "itemList": [
+                    {
+                        "id": 5,
+                        "name": "Lego",
+                        "category": "Toys",
+                        "price": 15.5
+                    }
+                ],
+                "categoryList": [
+                    "Toys"
+                ]
+            },
+            {
+                "id": 8,
+                "catalogName": "Food",
+                "itemList": [
+                    {
+                        "id": 4,
+                        "name": "Burger",
+                        "category": "Food",
+                        "price": 15.5
+                    }
+                ],
+                "categoryList": [
+                    "Food"
+                ]
+            }
+        ],
+        "discountMap": {
+            "soldier": 0.15,
+            "pensioner": 0.15,
+            "cripple": 0.15
         }
+    },
+    {
+        "id": 10,
+        "storeName": "Corona",
+        "owners": [
+            {
+                "id": 1,
+                "fullName": "Meidan",
+                "userName": "Meidan",
+                "password": "Meidan",
+                "role": "Owner",
+                "personType": "Citizen"
+            },
+            {
+                "id": 2,
+                "fullName": "bar",
+                "userName": "bar",
+                "password": "bar",
+                "role": "Customer",
+                "personType": "Soldier"
+            }
+        ],
+        "catalogList": [
+            {
+                "id": 6,
+                "catalogName": "Top&Shirts",
+                "itemList": [
+                    {
+                        "id": 3,
+                        "name": "Shirt",
+                        "category": "Cloth",
+                        "price": 15.5
+                    }
+                ],
+                "categoryList": [
+                    "Cloth"
+                ]
+            },
+            {
+                "id": 7,
+                "catalogName": "Kids",
+                "itemList": [
+                    {
+                        "id": 5,
+                        "name": "Lego",
+                        "category": "Toys",
+                        "price": 15.5
+                    }
+                ],
+                "categoryList": [
+                    "Toys"
+                ]
+            },
+            {
+                "id": 8,
+                "catalogName": "Food",
+                "itemList": [
+                    {
+                        "id": 4,
+                        "name": "Burger",
+                        "category": "Food",
+                        "price": 15.5
+                    }
+                ],
+                "categoryList": [
+                    "Food"
+                ]
+            }
+        ],
+        "discountMap": {}
+    }
+]
    
 
-
-Instance Resource
-~~~~~~~~~~~~~~~~~~
-
-.. code-block:: text
-
-    /admin/api/v1/services/{service}
-
-The Service Instance resources represents an individual web service tracked by StashBoard
-
-GET
+POST
 ++++
+Register as a user before call any other function
 
 .. code-block:: bash
 
-    GET /admin/api/v1/services/{service} HTTP/1.1
+    POST /register/{mallName} -> /register/The%20mall
 
 .. code-block:: js
 
         {
-            "name": "Example Service",
-            "id": "example-service",
-            "description": "An explanation of what this service represents"
-            "url": "/api/v1/services/example-service",
-            "current-event": null,
+    "id": 11,
+    "mallName": "The Mall",
+    "users": [
+        {
+            "id": 1,
+            "fullName": "Meidan",
+            "userName": "Meidan",
+            "password": "Meidan",
+            "role": "Owner",
+            "personType": "Citizen"
+        },
+        {
+            "id": 2,
+            "fullName": "bar",
+            "userName": "bar",
+            "password": "bar",
+            "role": "Customer",
+            "personType": "Soldier"
+        },
+        {
+            "id": 12,
+            "fullName": "Shahaf Pariente",
+            "userName": "Shahaf",
+            "password": "12346578",
+            "role": "Owner",
+            "personType": "Soldier"
         }
+    ],
+    "stores": [
+        {
+            "id": 9,
+            "storeName": "shufersal",
+            "owners": [
+                {
+                    "id": 1,
+                    "fullName": "Meidan",
+                    "userName": "Meidan",
+                    "password": "Meidan",
+                    "role": "Owner",
+                    "personType": "Citizen"
+                },
+                {
+                    "id": 2,
+                    "fullName": "bar",
+                    "userName": "bar",
+                    "password": "bar",
+                    "role": "Customer",
+                    "personType": "Soldier"
+                }
+            ],
+            "catalogList": [
+                {
+                    "id": 6,
+                    "catalogName": "Top&Shirts",
+                    "itemList": [
+                        {
+                            "id": 3,
+                            "name": "Shirt",
+                            "category": "Cloth",
+                            "price": 15.5
+                        }
+                    ],
+                    "categoryList": [
+                        "Cloth"
+                    ]
+                },
+                {
+                    "id": 7,
+                    "catalogName": "Kids",
+                    "itemList": [
+                        {
+                            "id": 5,
+                            "name": "Lego",
+                            "category": "Toys",
+                            "price": 15.5
+                        }
+                    ],
+                    "categoryList": [
+                        "Toys"
+                    ]
+                },
+                {
+                    "id": 8,
+                    "catalogName": "Food",
+                    "itemList": [
+                        {
+                            "id": 4,
+                            "name": "Burger",
+                            "category": "Food",
+                            "price": 15.5
+                        }
+                    ],
+                    "categoryList": [
+                        "Food"
+                    ]
+                }
+            ],
+            "discountMap": {
+                "soldier": 0.15,
+                "pensioner": 0.15,
+                "cripple": 0.15
+            }
+        },
+        {
+            "id": 10,
+            "storeName": "Corona",
+            "owners": [
+                {
+                    "id": 1,
+                    "fullName": "Meidan",
+                    "userName": "Meidan",
+                    "password": "Meidan",
+                    "role": "Owner",
+                    "personType": "Citizen"
+                },
+                {
+                    "id": 2,
+                    "fullName": "bar",
+                    "userName": "bar",
+                    "password": "bar",
+                    "role": "Customer",
+                    "personType": "Soldier"
+                }
+            ],
+            "catalogList": [
+                {
+                    "id": 6,
+                    "catalogName": "Top&Shirts",
+                    "itemList": [
+                        {
+                            "id": 3,
+                            "name": "Shirt",
+                            "category": "Cloth",
+                            "price": 15.5
+                        }
+                    ],
+                    "categoryList": [
+                        "Cloth"
+                    ]
+                },
+                {
+                    "id": 7,
+                    "catalogName": "Kids",
+                    "itemList": [
+                        {
+                            "id": 5,
+                            "name": "Lego",
+                            "category": "Toys",
+                            "price": 15.5
+                        }
+                    ],
+                    "categoryList": [
+                        "Toys"
+                    ]
+                },
+                {
+                    "id": 8,
+                    "catalogName": "Food",
+                    "itemList": [
+                        {
+                            "id": 4,
+                            "name": "Burger",
+                            "category": "Food",
+                            "price": 15.5
+                        }
+                    ],
+                    "categoryList": [
+                        "Food"
+                    ]
+                }
+            ],
+            "discountMap": {}
+        }
+    ]
+}
 
 POST
 +++++
 
-Updates a service's description and returns the updated service object. All the listed parameters are optional.
+Buy items from a specific store in the mall.
 
 ==============   ===============
 Param            Description
 ==============   ===============
-name             Name of the service 
-description      Description of service 
+userName         The person userName  
+password         Password of the user 
 ==============   ===============
+
+==============   ===============  ==============    
+Body             value            Description
+==============   ===============  ==============
+params           catalog          Name of the catalog
+                 items            List of the item names
+                 paymentMethod    The payment method name
+==============   ===============  ==============
 
 .. code-block:: text
   
-    POST /admin/api/v1/services/{service} description=System%20is%20now%20operational
+    POST /buy/{mallName}/{storeName} /buy/The%20mall/shufersal
+   
+Body
+.. code-block:: js
+{
+    "catalog":"Food",
+    "items": [
+        "Shirt",
+        "Burger"
+    ],
+    "paymentMethod":"creditcard"
+}
 
+Response
 .. code-block:: js
 
-        {
-            "name": "Example Service",
-            "id": "example-service",
-            "description": "System is now operational",
-            "url": "/api/v1/services/example-service",
-            "current-event": null,
-        }
+        Could not find some of your items: [Shirt]
 
 
-DELETE
+
+GET
 +++++++
 
-Deletes a service and returns the deleted service object
+Call for a help if you are person with disabillities
+==============   ===============
+Param            Description
+==============   ===============
+userName         The person userName  
+password         Password of the user 
+==============   ===============
 
 .. code-block:: text
 
-    DELETE /admin/api/v1/services/{service} HTTP/1.1
+    GET /getHelp/{mallName} /getHelp/The%20mall?userName=bar&password=bar
 
 .. code-block:: js
 
-        {
-            "name": "Example Service",
-            "id": "example-service",
-            "description": "System is now operational",
-            "url": "/api/v1/services/example-service",
-            "current-event": null,
-        }
+        "Help is on the way Sir!"
 
 Service List
 -------------
