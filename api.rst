@@ -16,7 +16,7 @@ Returns a list of all current services tracked by Stashboard
 
 .. code-block:: js
 
- [
+   [
   {
     "id": 11,
     "mallName": "The Mall",
@@ -87,152 +87,152 @@ mallName         Name of the mall
 
 .. code-block:: js
 
-        [
-    {
-        "id": 9,
-        "storeName": "shufersal",
-        "owners": [
-            {
-                "id": 1,
-                "fullName": "Meidan",
-                "userName": "Meidan",
-                "password": "Meidan",
-                "role": "Owner",
-                "personType": "Citizen"
-            },
-            {
-                "id": 2,
-                "fullName": "bar",
-                "userName": "bar",
-                "password": "bar",
-                "role": "Customer",
-                "personType": "Soldier"
-            }
-        ],
-        "catalogList": [
-            {
-                "id": 6,
-                "catalogName": "Top&Shirts",
-                "itemList": [
-                    {
-                        "id": 3,
-                        "name": "Shirt",
-                        "category": "Cloth",
-                        "price": 15.5
-                    }
-                ],
-                "categoryList": [
-                    "Cloth"
-                ]
-            },
-            {
-                "id": 7,
-                "catalogName": "Kids",
-                "itemList": [
-                    {
-                        "id": 5,
-                        "name": "Lego",
-                        "category": "Toys",
-                        "price": 15.5
-                    }
-                ],
-                "categoryList": [
-                    "Toys"
-                ]
-            },
-            {
-                "id": 8,
-                "catalogName": "Food",
-                "itemList": [
-                    {
-                        "id": 4,
-                        "name": "Burger",
-                        "category": "Food",
-                        "price": 15.5
-                    }
-                ],
-                "categoryList": [
-                    "Food"
-                ]
-            }
-        ],
-        "discountMap": {
-            "soldier": 0.15,
-            "pensioner": 0.15,
-            "cripple": 0.15
-        }
-    },
-    {
-        "id": 10,
-        "storeName": "Corona",
-        "owners": [
-            {
-                "id": 1,
-                "fullName": "Meidan",
-                "userName": "Meidan",
-                "password": "Meidan",
-                "role": "Owner",
-                "personType": "Citizen"
-            },
-            {
-                "id": 2,
-                "fullName": "bar",
-                "userName": "bar",
-                "password": "bar",
-                "role": "Customer",
-                "personType": "Soldier"
-            }
-        ],
-        "catalogList": [
-            {
-                "id": 6,
-                "catalogName": "Top&Shirts",
-                "itemList": [
-                    {
-                        "id": 3,
-                        "name": "Shirt",
-                        "category": "Cloth",
-                        "price": 15.5
-                    }
-                ],
-                "categoryList": [
-                    "Cloth"
-                ]
-            },
-            {
-                "id": 7,
-                "catalogName": "Kids",
-                "itemList": [
-                    {
-                        "id": 5,
-                        "name": "Lego",
-                        "category": "Toys",
-                        "price": 15.5
-                    }
-                ],
-                "categoryList": [
-                    "Toys"
-                ]
-            },
-            {
-                "id": 8,
-                "catalogName": "Food",
-                "itemList": [
-                    {
-                        "id": 4,
-                        "name": "Burger",
-                        "category": "Food",
-                        "price": 15.5
-                    }
-                ],
-                "categoryList": [
-                    "Food"
-                ]
-            }
-        ],
-        "discountMap": {}
-    }
-]
+           [
+       {
+           "id": 9,
+           "storeName": "shufersal",
+           "owners": [
+               {
+                   "id": 1,
+                   "fullName": "Meidan",
+                   "userName": "Meidan",
+                   "password": "Meidan",
+                   "role": "Owner",
+                   "personType": "Citizen"
+               },
+               {
+                   "id": 2,
+                   "fullName": "bar",
+                   "userName": "bar",
+                   "password": "bar",
+                   "role": "Customer",
+                   "personType": "Soldier"
+               }
+           ],
+           "catalogList": [
+               {
+                   "id": 6,
+                   "catalogName": "Top&Shirts",
+                   "itemList": [
+                       {
+                           "id": 3,
+                           "name": "Shirt",
+                           "category": "Cloth",
+                           "price": 15.5
+                       }
+                   ],
+                   "categoryList": [
+                       "Cloth"
+                   ]
+               },
+               {
+                   "id": 7,
+                   "catalogName": "Kids",
+                   "itemList": [
+                       {
+                           "id": 5,
+                           "name": "Lego",
+                           "category": "Toys",
+                           "price": 15.5
+                       }
+                   ],
+                   "categoryList": [
+                       "Toys"
+                   ]
+               },
+               {
+                   "id": 8,
+                   "catalogName": "Food",
+                   "itemList": [
+                       {
+                           "id": 4,
+                           "name": "Burger",
+                           "category": "Food",
+                           "price": 15.5
+                       }
+                   ],
+                   "categoryList": [
+                       "Food"
+                   ]
+               }
+           ],
+           "discountMap": {
+               "soldier": 0.15,
+               "pensioner": 0.15,
+               "cripple": 0.15
+           }
+       },
+       {
+           "id": 10,
+           "storeName": "Corona",
+           "owners": [
+               {
+                   "id": 1,
+                   "fullName": "Meidan",
+                   "userName": "Meidan",
+                   "password": "Meidan",
+                   "role": "Owner",
+                   "personType": "Citizen"
+               },
+               {
+                   "id": 2,
+                   "fullName": "bar",
+                   "userName": "bar",
+                   "password": "bar",
+                   "role": "Customer",
+                   "personType": "Soldier"
+               }
+           ],
+           "catalogList": [
+               {
+                   "id": 6,
+                   "catalogName": "Top&Shirts",
+                   "itemList": [
+                       {
+                           "id": 3,
+                           "name": "Shirt",
+                           "category": "Cloth",
+                           "price": 15.5
+                       }
+                   ],
+                   "categoryList": [
+                       "Cloth"
+                   ]
+               },
+               {
+                   "id": 7,
+                   "catalogName": "Kids",
+                   "itemList": [
+                       {
+                           "id": 5,
+                           "name": "Lego",
+                           "category": "Toys",
+                           "price": 15.5
+                       }
+                   ],
+                   "categoryList": [
+                       "Toys"
+                   ]
+               },
+               {
+                   "id": 8,
+                   "catalogName": "Food",
+                   "itemList": [
+                       {
+                           "id": 4,
+                           "name": "Burger",
+                           "category": "Food",
+                           "price": 15.5
+                       }
+                   ],
+                   "categoryList": [
+                       "Food"
+                   ]
+               }
+           ],
+           "discountMap": {}
+       }
+   ]
    
 
 POST
@@ -251,192 +251,192 @@ params           Person           The person data
     POST /register/{mallName} -> /register/The%20mall
 
 .. code-block:: js
-{
-    "fullName":"Shahaf Pariente",
-    "userName":"Shahaf",
-    "password":"12346578",
-    "role":"Owner",
-    "personType":"Soldier"
-}
+   {
+       "fullName":"Shahaf Pariente",
+       "userName":"Shahaf",
+       "password":"12346578",
+       "role":"Owner",
+       "personType":"Soldier"
+   }
 
 .. code-block:: js
 
-        {
-    "id": 11,
-    "mallName": "The Mall",
-    "users": [
-        {
-            "id": 1,
-            "fullName": "Meidan",
-            "userName": "Meidan",
-            "password": "Meidan",
-            "role": "Owner",
-            "personType": "Citizen"
-        },
-        {
-            "id": 2,
-            "fullName": "bar",
-            "userName": "bar",
-            "password": "bar",
-            "role": "Customer",
-            "personType": "Soldier"
-        },
-        {
-            "id": 12,
-            "fullName": "Shahaf Pariente",
-            "userName": "Shahaf",
-            "password": "12346578",
-            "role": "Owner",
-            "personType": "Soldier"
-        }
-    ],
-    "stores": [
-        {
-            "id": 9,
-            "storeName": "shufersal",
-            "owners": [
-                {
-                    "id": 1,
-                    "fullName": "Meidan",
-                    "userName": "Meidan",
-                    "password": "Meidan",
-                    "role": "Owner",
-                    "personType": "Citizen"
-                },
-                {
-                    "id": 2,
-                    "fullName": "bar",
-                    "userName": "bar",
-                    "password": "bar",
-                    "role": "Customer",
-                    "personType": "Soldier"
-                }
-            ],
-            "catalogList": [
-                {
-                    "id": 6,
-                    "catalogName": "Top&Shirts",
-                    "itemList": [
-                        {
-                            "id": 3,
-                            "name": "Shirt",
-                            "category": "Cloth",
-                            "price": 15.5
-                        }
-                    ],
-                    "categoryList": [
-                        "Cloth"
-                    ]
-                },
-                {
-                    "id": 7,
-                    "catalogName": "Kids",
-                    "itemList": [
-                        {
-                            "id": 5,
-                            "name": "Lego",
-                            "category": "Toys",
-                            "price": 15.5
-                        }
-                    ],
-                    "categoryList": [
-                        "Toys"
-                    ]
-                },
-                {
-                    "id": 8,
-                    "catalogName": "Food",
-                    "itemList": [
-                        {
-                            "id": 4,
-                            "name": "Burger",
-                            "category": "Food",
-                            "price": 15.5
-                        }
-                    ],
-                    "categoryList": [
-                        "Food"
-                    ]
-                }
-            ],
-            "discountMap": {
-                "soldier": 0.15,
-                "pensioner": 0.15,
-                "cripple": 0.15
-            }
-        },
-        {
-            "id": 10,
-            "storeName": "Corona",
-            "owners": [
-                {
-                    "id": 1,
-                    "fullName": "Meidan",
-                    "userName": "Meidan",
-                    "password": "Meidan",
-                    "role": "Owner",
-                    "personType": "Citizen"
-                },
-                {
-                    "id": 2,
-                    "fullName": "bar",
-                    "userName": "bar",
-                    "password": "bar",
-                    "role": "Customer",
-                    "personType": "Soldier"
-                }
-            ],
-            "catalogList": [
-                {
-                    "id": 6,
-                    "catalogName": "Top&Shirts",
-                    "itemList": [
-                        {
-                            "id": 3,
-                            "name": "Shirt",
-                            "category": "Cloth",
-                            "price": 15.5
-                        }
-                    ],
-                    "categoryList": [
-                        "Cloth"
-                    ]
-                },
-                {
-                    "id": 7,
-                    "catalogName": "Kids",
-                    "itemList": [
-                        {
-                            "id": 5,
-                            "name": "Lego",
-                            "category": "Toys",
-                            "price": 15.5
-                        }
-                    ],
-                    "categoryList": [
-                        "Toys"
-                    ]
-                },
-                {
-                    "id": 8,
-                    "catalogName": "Food",
-                    "itemList": [
-                        {
-                            "id": 4,
-                            "name": "Burger",
-                            "category": "Food",
-                            "price": 15.5
-                        }
-                    ],
-                    "categoryList": [
-                        "Food"
-                    ]
-                }
-            ],
-            "discountMap": {}
-        }
-    ]
-}
+           {
+       "id": 11,
+       "mallName": "The Mall",
+       "users": [
+           {
+               "id": 1,
+               "fullName": "Meidan",
+               "userName": "Meidan",
+               "password": "Meidan",
+               "role": "Owner",
+               "personType": "Citizen"
+           },
+           {
+               "id": 2,
+               "fullName": "bar",
+               "userName": "bar",
+               "password": "bar",
+               "role": "Customer",
+               "personType": "Soldier"
+           },
+           {
+               "id": 12,
+               "fullName": "Shahaf Pariente",
+               "userName": "Shahaf",
+               "password": "12346578",
+               "role": "Owner",
+               "personType": "Soldier"
+           }
+       ],
+       "stores": [
+           {
+               "id": 9,
+               "storeName": "shufersal",
+               "owners": [
+                   {
+                       "id": 1,
+                       "fullName": "Meidan",
+                       "userName": "Meidan",
+                       "password": "Meidan",
+                       "role": "Owner",
+                       "personType": "Citizen"
+                   },
+                   {
+                       "id": 2,
+                       "fullName": "bar",
+                       "userName": "bar",
+                       "password": "bar",
+                       "role": "Customer",
+                       "personType": "Soldier"
+                   }
+               ],
+               "catalogList": [
+                   {
+                       "id": 6,
+                       "catalogName": "Top&Shirts",
+                       "itemList": [
+                           {
+                               "id": 3,
+                               "name": "Shirt",
+                               "category": "Cloth",
+                               "price": 15.5
+                           }
+                       ],
+                       "categoryList": [
+                           "Cloth"
+                       ]
+                   },
+                   {
+                       "id": 7,
+                       "catalogName": "Kids",
+                       "itemList": [
+                           {
+                               "id": 5,
+                               "name": "Lego",
+                               "category": "Toys",
+                               "price": 15.5
+                           }
+                       ],
+                       "categoryList": [
+                           "Toys"
+                       ]
+                   },
+                   {
+                       "id": 8,
+                       "catalogName": "Food",
+                       "itemList": [
+                           {
+                               "id": 4,
+                               "name": "Burger",
+                               "category": "Food",
+                               "price": 15.5
+                           }
+                       ],
+                       "categoryList": [
+                           "Food"
+                       ]
+                   }
+               ],
+               "discountMap": {
+                   "soldier": 0.15,
+                   "pensioner": 0.15,
+                   "cripple": 0.15
+               }
+           },
+           {
+               "id": 10,
+               "storeName": "Corona",
+               "owners": [
+                   {
+                       "id": 1,
+                       "fullName": "Meidan",
+                       "userName": "Meidan",
+                       "password": "Meidan",
+                       "role": "Owner",
+                       "personType": "Citizen"
+                   },
+                   {
+                       "id": 2,
+                       "fullName": "bar",
+                       "userName": "bar",
+                       "password": "bar",
+                       "role": "Customer",
+                       "personType": "Soldier"
+                   }
+               ],
+               "catalogList": [
+                   {
+                       "id": 6,
+                       "catalogName": "Top&Shirts",
+                       "itemList": [
+                           {
+                               "id": 3,
+                               "name": "Shirt",
+                               "category": "Cloth",
+                               "price": 15.5
+                           }
+                       ],
+                       "categoryList": [
+                           "Cloth"
+                       ]
+                   },
+                   {
+                       "id": 7,
+                       "catalogName": "Kids",
+                       "itemList": [
+                           {
+                               "id": 5,
+                               "name": "Lego",
+                               "category": "Toys",
+                               "price": 15.5
+                           }
+                       ],
+                       "categoryList": [
+                           "Toys"
+                       ]
+                   },
+                   {
+                       "id": 8,
+                       "catalogName": "Food",
+                       "itemList": [
+                           {
+                               "id": 4,
+                               "name": "Burger",
+                               "category": "Food",
+                               "price": 15.5
+                           }
+                       ],
+                       "categoryList": [
+                           "Food"
+                       ]
+                   }
+               ],
+               "discountMap": {}
+           }
+       ]
+   }
 
 POST
 +++++
@@ -464,14 +464,14 @@ params           catalog,          Name of the catalog,
    
 Body
 .. code-block:: js
-{
-    "catalog":"Food",
-    "items": [
-        "Shirt",
-        "Burger"
-    ],
-    "paymentMethod":"creditcard"
-}
+   {
+       "catalog":"Food",
+       "items": [
+           "Shirt",
+           "Burger"
+       ],
+       "paymentMethod":"creditcard"
+   }
 
 Response
 .. code-block:: js
@@ -514,152 +514,152 @@ Returns a list of all stores
 
 .. code-block:: js
 
-        [
-    {
-        "id": 9,
-        "storeName": "shufersal",
-        "owners": [
-            {
-                "id": 1,
-                "fullName": "Meidan",
-                "userName": "Meidan",
-                "password": "Meidan",
-                "role": "Owner",
-                "personType": "Citizen"
-            },
-            {
-                "id": 2,
-                "fullName": "bar",
-                "userName": "bar",
-                "password": "bar",
-                "role": "Customer",
-                "personType": "Soldier"
-            }
-        ],
-        "catalogList": [
-            {
-                "id": 6,
-                "catalogName": "Top&Shirts",
-                "itemList": [
-                    {
-                        "id": 3,
-                        "name": "Shirt",
-                        "category": "Cloth",
-                        "price": 15.5
-                    }
-                ],
-                "categoryList": [
-                    "Cloth"
-                ]
-            },
-            {
-                "id": 7,
-                "catalogName": "Kids",
-                "itemList": [
-                    {
-                        "id": 5,
-                        "name": "Lego",
-                        "category": "Toys",
-                        "price": 15.5
-                    }
-                ],
-                "categoryList": [
-                    "Toys"
-                ]
-            },
-            {
-                "id": 8,
-                "catalogName": "Food",
-                "itemList": [
-                    {
-                        "id": 4,
-                        "name": "Burger",
-                        "category": "Food",
-                        "price": 15.5
-                    }
-                ],
-                "categoryList": [
-                    "Food"
-                ]
-            }
-        ],
-        "discountMap": {
-            "soldier": 0.15,
-            "pensioner": 0.15,
-            "cripple": 0.15
-        }
-    },
-    {
-        "id": 10,
-        "storeName": "Corona",
-        "owners": [
-            {
-                "id": 1,
-                "fullName": "Meidan",
-                "userName": "Meidan",
-                "password": "Meidan",
-                "role": "Owner",
-                "personType": "Citizen"
-            },
-            {
-                "id": 2,
-                "fullName": "bar",
-                "userName": "bar",
-                "password": "bar",
-                "role": "Customer",
-                "personType": "Soldier"
-            }
-        ],
-        "catalogList": [
-            {
-                "id": 6,
-                "catalogName": "Top&Shirts",
-                "itemList": [
-                    {
-                        "id": 3,
-                        "name": "Shirt",
-                        "category": "Cloth",
-                        "price": 15.5
-                    }
-                ],
-                "categoryList": [
-                    "Cloth"
-                ]
-            },
-            {
-                "id": 7,
-                "catalogName": "Kids",
-                "itemList": [
-                    {
-                        "id": 5,
-                        "name": "Lego",
-                        "category": "Toys",
-                        "price": 15.5
-                    }
-                ],
-                "categoryList": [
-                    "Toys"
-                ]
-            },
-            {
-                "id": 8,
-                "catalogName": "Food",
-                "itemList": [
-                    {
-                        "id": 4,
-                        "name": "Burger",
-                        "category": "Food",
-                        "price": 15.5
-                    }
-                ],
-                "categoryList": [
-                    "Food"
-                ]
-            }
-        ],
-        "discountMap": {}
-    }
-]
+           [
+       {
+           "id": 9,
+           "storeName": "shufersal",
+           "owners": [
+               {
+                   "id": 1,
+                   "fullName": "Meidan",
+                   "userName": "Meidan",
+                   "password": "Meidan",
+                   "role": "Owner",
+                   "personType": "Citizen"
+               },
+               {
+                   "id": 2,
+                   "fullName": "bar",
+                   "userName": "bar",
+                   "password": "bar",
+                   "role": "Customer",
+                   "personType": "Soldier"
+               }
+           ],
+           "catalogList": [
+               {
+                   "id": 6,
+                   "catalogName": "Top&Shirts",
+                   "itemList": [
+                       {
+                           "id": 3,
+                           "name": "Shirt",
+                           "category": "Cloth",
+                           "price": 15.5
+                       }
+                   ],
+                   "categoryList": [
+                       "Cloth"
+                   ]
+               },
+               {
+                   "id": 7,
+                   "catalogName": "Kids",
+                   "itemList": [
+                       {
+                           "id": 5,
+                           "name": "Lego",
+                           "category": "Toys",
+                           "price": 15.5
+                       }
+                   ],
+                   "categoryList": [
+                       "Toys"
+                   ]
+               },
+               {
+                   "id": 8,
+                   "catalogName": "Food",
+                   "itemList": [
+                       {
+                           "id": 4,
+                           "name": "Burger",
+                           "category": "Food",
+                           "price": 15.5
+                       }
+                   ],
+                   "categoryList": [
+                       "Food"
+                   ]
+               }
+           ],
+           "discountMap": {
+               "soldier": 0.15,
+               "pensioner": 0.15,
+               "cripple": 0.15
+           }
+       },
+       {
+           "id": 10,
+           "storeName": "Corona",
+           "owners": [
+               {
+                   "id": 1,
+                   "fullName": "Meidan",
+                   "userName": "Meidan",
+                   "password": "Meidan",
+                   "role": "Owner",
+                   "personType": "Citizen"
+               },
+               {
+                   "id": 2,
+                   "fullName": "bar",
+                   "userName": "bar",
+                   "password": "bar",
+                   "role": "Customer",
+                   "personType": "Soldier"
+               }
+           ],
+           "catalogList": [
+               {
+                   "id": 6,
+                   "catalogName": "Top&Shirts",
+                   "itemList": [
+                       {
+                           "id": 3,
+                           "name": "Shirt",
+                           "category": "Cloth",
+                           "price": 15.5
+                       }
+                   ],
+                   "categoryList": [
+                       "Cloth"
+                   ]
+               },
+               {
+                   "id": 7,
+                   "catalogName": "Kids",
+                   "itemList": [
+                       {
+                           "id": 5,
+                           "name": "Lego",
+                           "category": "Toys",
+                           "price": 15.5
+                       }
+                   ],
+                   "categoryList": [
+                       "Toys"
+                   ]
+               },
+               {
+                   "id": 8,
+                   "catalogName": "Food",
+                   "itemList": [
+                       {
+                           "id": 4,
+                           "name": "Burger",
+                           "category": "Food",
+                           "price": 15.5
+                       }
+                   ],
+                   "categoryList": [
+                       "Food"
+                   ]
+               }
+           ],
+           "discountMap": {}
+       }
+   ]
 
 GET 
 ++++++
@@ -672,80 +672,80 @@ Get a specific store by id
 
 .. code-block:: js
 
-        {
-    "id": 9,
-    "storeName": "shufersal",
-    "owners": [
-        {
-            "id": 1,
-            "fullName": "Meidan",
-            "userName": "Meidan",
-            "password": "Meidan",
-            "role": "Owner",
-            "personType": "Citizen"
-        },
-        {
-            "id": 2,
-            "fullName": "bar",
-            "userName": "bar",
-            "password": "bar",
-            "role": "Customer",
-            "personType": "Soldier"
-        }
-    ],
-    "catalogList": [
-        {
-            "id": 6,
-            "catalogName": "Top&Shirts",
-            "itemList": [
-                {
-                    "id": 3,
-                    "name": "Shirt",
-                    "category": "Cloth",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Cloth"
-            ]
-        },
-        {
-            "id": 7,
-            "catalogName": "Kids",
-            "itemList": [
-                {
-                    "id": 5,
-                    "name": "Lego",
-                    "category": "Toys",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Toys"
-            ]
-        },
-        {
-            "id": 8,
-            "catalogName": "Food",
-            "itemList": [
-                {
-                    "id": 4,
-                    "name": "Burger",
-                    "category": "Food",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Food"
-            ]
-        }
-    ],
-    "discountMap": {
-        "soldier": 0.15,
-        "pensioner": 0.15,
-        "cripple": 0.15
-    }
-}
+           {
+       "id": 9,
+       "storeName": "shufersal",
+       "owners": [
+           {
+               "id": 1,
+               "fullName": "Meidan",
+               "userName": "Meidan",
+               "password": "Meidan",
+               "role": "Owner",
+               "personType": "Citizen"
+           },
+           {
+               "id": 2,
+               "fullName": "bar",
+               "userName": "bar",
+               "password": "bar",
+               "role": "Customer",
+               "personType": "Soldier"
+           }
+       ],
+       "catalogList": [
+           {
+               "id": 6,
+               "catalogName": "Top&Shirts",
+               "itemList": [
+                   {
+                       "id": 3,
+                       "name": "Shirt",
+                       "category": "Cloth",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Cloth"
+               ]
+           },
+           {
+               "id": 7,
+               "catalogName": "Kids",
+               "itemList": [
+                   {
+                       "id": 5,
+                       "name": "Lego",
+                       "category": "Toys",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Toys"
+               ]
+           },
+           {
+               "id": 8,
+               "catalogName": "Food",
+               "itemList": [
+                   {
+                       "id": 4,
+                       "name": "Burger",
+                       "category": "Food",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Food"
+               ]
+           }
+       ],
+       "discountMap": {
+           "soldier": 0.15,
+           "pensioner": 0.15,
+           "cripple": 0.15
+       }
+   }
 
 
 GET
@@ -757,80 +757,80 @@ Get store by name
 
 .. code-block:: js
 
-        {
-    "id": 9,
-    "storeName": "shufersal",
-    "owners": [
-        {
-            "id": 1,
-            "fullName": "Meidan",
-            "userName": "Meidan",
-            "password": "Meidan",
-            "role": "Owner",
-            "personType": "Citizen"
-        },
-        {
-            "id": 2,
-            "fullName": "bar",
-            "userName": "bar",
-            "password": "bar",
-            "role": "Customer",
-            "personType": "Soldier"
-        }
-    ],
-    "catalogList": [
-        {
-            "id": 6,
-            "catalogName": "Top&Shirts",
-            "itemList": [
-                {
-                    "id": 3,
-                    "name": "Shirt",
-                    "category": "Cloth",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Cloth"
-            ]
-        },
-        {
-            "id": 7,
-            "catalogName": "Kids",
-            "itemList": [
-                {
-                    "id": 5,
-                    "name": "Lego",
-                    "category": "Toys",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Toys"
-            ]
-        },
-        {
-            "id": 8,
-            "catalogName": "Food",
-            "itemList": [
-                {
-                    "id": 4,
-                    "name": "Burger",
-                    "category": "Food",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Food"
-            ]
-        }
-    ],
-    "discountMap": {
-        "soldier": 0.15,
-        "pensioner": 0.15,
-        "cripple": 0.15
-    }
-}
+           {
+       "id": 9,
+       "storeName": "shufersal",
+       "owners": [
+           {
+               "id": 1,
+               "fullName": "Meidan",
+               "userName": "Meidan",
+               "password": "Meidan",
+               "role": "Owner",
+               "personType": "Citizen"
+           },
+           {
+               "id": 2,
+               "fullName": "bar",
+               "userName": "bar",
+               "password": "bar",
+               "role": "Customer",
+               "personType": "Soldier"
+           }
+       ],
+       "catalogList": [
+           {
+               "id": 6,
+               "catalogName": "Top&Shirts",
+               "itemList": [
+                   {
+                       "id": 3,
+                       "name": "Shirt",
+                       "category": "Cloth",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Cloth"
+               ]
+           },
+           {
+               "id": 7,
+               "catalogName": "Kids",
+               "itemList": [
+                   {
+                       "id": 5,
+                       "name": "Lego",
+                       "category": "Toys",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Toys"
+               ]
+           },
+           {
+               "id": 8,
+               "catalogName": "Food",
+               "itemList": [
+                   {
+                       "id": 4,
+                       "name": "Burger",
+                       "category": "Food",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Food"
+               ]
+           }
+       ],
+       "discountMap": {
+           "soldier": 0.15,
+           "pensioner": 0.15,
+           "cripple": 0.15
+       }
+   }
 
 GET
 +++++
@@ -849,53 +849,53 @@ storeName        Name of the store
 
 .. code-block:: js
 
-        [
-    {
-        "id": 6,
-        "catalogName": "Top&Shirts",
-        "itemList": [
-            {
-                "id": 3,
-                "name": "Shirt",
-                "category": "Cloth",
-                "price": 15.5
-            }
-        ],
-        "categoryList": [
-            "Cloth"
-        ]
-    },
-    {
-        "id": 7,
-        "catalogName": "Kids",
-        "itemList": [
-            {
-                "id": 5,
-                "name": "Lego",
-                "category": "Toys",
-                "price": 15.5
-            }
-        ],
-        "categoryList": [
-            "Toys"
-        ]
-    },
-    {
-        "id": 8,
-        "catalogName": "Food",
-        "itemList": [
-            {
-                "id": 4,
-                "name": "Burger",
-                "category": "Food",
-                "price": 15.5
-            }
-        ],
-        "categoryList": [
-            "Food"
-        ]
-    }
-]
+           [
+       {
+           "id": 6,
+           "catalogName": "Top&Shirts",
+           "itemList": [
+               {
+                   "id": 3,
+                   "name": "Shirt",
+                   "category": "Cloth",
+                   "price": 15.5
+               }
+           ],
+           "categoryList": [
+               "Cloth"
+           ]
+       },
+       {
+           "id": 7,
+           "catalogName": "Kids",
+           "itemList": [
+               {
+                   "id": 5,
+                   "name": "Lego",
+                   "category": "Toys",
+                   "price": 15.5
+               }
+           ],
+           "categoryList": [
+               "Toys"
+           ]
+       },
+       {
+           "id": 8,
+           "catalogName": "Food",
+           "itemList": [
+               {
+                   "id": 4,
+                   "name": "Burger",
+                   "category": "Food",
+                   "price": 15.5
+               }
+           ],
+           "categoryList": [
+               "Food"
+           ]
+       }
+   ]
 
 
 GET
@@ -916,21 +916,21 @@ catalogName      Name of the catalog
 
 .. code-block:: js
 
-        {
-    "id": 7,
-    "catalogName": "Kids",
-    "itemList": [
-        {
-            "id": 5,
-            "name": "Lego",
-            "category": "Toys",
-            "price": 15.5
-        }
-    ],
-    "categoryList": [
-        "Toys"
-    ]
-}
+           {
+       "id": 7,
+       "catalogName": "Kids",
+       "itemList": [
+           {
+               "id": 5,
+               "name": "Lego",
+               "category": "Toys",
+               "price": 15.5
+           }
+       ],
+       "categoryList": [
+           "Toys"
+       ]
+   }
 
 
 GET
@@ -950,11 +950,11 @@ storeName        Name of the store
 
 .. code-block:: js
 
-        [
-    "Cloth",
-    "Toys",
-    "Food"
-]
+           [
+       "Cloth",
+       "Toys",
+       "Food"
+   ]
 
 
 GET
@@ -1006,158 +1006,7 @@ Store            store details
     POST /addStore
 .. code-block:: js
 
-{
-    "storeName": "blayyh",
-    "owners": [
-        {
-            "fullName": "test2",
-            "userName": "test3",
-            "password": "Meidan",
-            "role": "Owner",
-            "personType": "Citizen"
-        },
-        {
-            "fullName": "test",
-            "userName": "teest",
-            "password": "bar",
-            "role": "Customer",
-            "personType": "Soldier"
-        }
-    ],
-    "catalogList": [
-        {
-            "catalogName": "Top&Shirts",
-            "itemList": [
-                {
-                    "name": "Shirt",
-                    "category": "Cloth",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Cloth"
-            ]
-        },
-        {
-            "catalogName": "Kids",
-            "itemList": [
-                {
-                    "name": "Lego",
-                    "category": "Toys",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Toys"
-            ]
-        },
-        {
-            "catalogName": "TV",
-            "itemList": [
-                {
-                    "name": "LGLCD",
-                    "category": "LCD",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Food"
-            ]
-        }
-    ]
-}
-
-.. code-block:: js
-
-        {
-    "id": 34,
-    "storeName": "blayyh",
-    "owners": [
-        {
-            "id": 12,
-            "fullName": "test2",
-            "userName": "test3",
-            "password": "Meidan",
-            "role": "Owner",
-            "personType": "Citizen"
-        },
-        {
-            "id": 13,
-            "fullName": "test",
-            "userName": "teest",
-            "password": "bar",
-            "role": "Customer",
-            "personType": "Soldier"
-        }
-    ],
-    "catalogList": [
-        {
-            "id": 31,
-            "catalogName": "Top&Shirts",
-            "itemList": [
-                {
-                    "id": 28,
-                    "name": "Shirt",
-                    "category": "Cloth",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Cloth"
-            ]
-        },
-        {
-            "id": 32,
-            "catalogName": "Kids",
-            "itemList": [
-                {
-                    "id": 29,
-                    "name": "Lego",
-                    "category": "Toys",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Toys"
-            ]
-        },
-        {
-            "id": 33,
-            "catalogName": "TV",
-            "itemList": [
-                {
-                    "id": 30,
-                    "name": "LGLCD",
-                    "category": "LCD",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Food"
-            ]
-        }
-    ]
-}
-
-
-POST
-++++
-
-Add list of stores.
-
-==============   ===============
-Body             Description
-==============   ===============
-List of stores   List of store details
-==============   ===============
-
-.. code-block:: text
-
-    POST /addStores
-.. code-block:: js
-
-[
-      {
+   {
        "storeName": "blayyh",
        "owners": [
            {
@@ -1217,81 +1066,232 @@ List of stores   List of store details
            }
        ]
    }
-]
 
 .. code-block:: js
 
-        [
-               {
-    "id": 34,
-    "storeName": "blayyh",
-    "owners": [
-        {
-            "id": 12,
-            "fullName": "test2",
-            "userName": "test3",
-            "password": "Meidan",
-            "role": "Owner",
-            "personType": "Citizen"
-        },
-        {
-            "id": 13,
-            "fullName": "test",
-            "userName": "teest",
-            "password": "bar",
-            "role": "Customer",
-            "personType": "Soldier"
-        }
-    ],
-    "catalogList": [
-        {
-            "id": 31,
-            "catalogName": "Top&Shirts",
-            "itemList": [
-                {
-                    "id": 28,
-                    "name": "Shirt",
-                    "category": "Cloth",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Cloth"
-            ]
-        },
-        {
-            "id": 32,
-            "catalogName": "Kids",
-            "itemList": [
-                {
-                    "id": 29,
-                    "name": "Lego",
-                    "category": "Toys",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Toys"
-            ]
-        },
-        {
-            "id": 33,
-            "catalogName": "TV",
-            "itemList": [
-                {
-                    "id": 30,
-                    "name": "LGLCD",
-                    "category": "LCD",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Food"
-            ]
-        }
-    ]
-}
-        ]
+           {
+       "id": 34,
+       "storeName": "blayyh",
+       "owners": [
+           {
+               "id": 12,
+               "fullName": "test2",
+               "userName": "test3",
+               "password": "Meidan",
+               "role": "Owner",
+               "personType": "Citizen"
+           },
+           {
+               "id": 13,
+               "fullName": "test",
+               "userName": "teest",
+               "password": "bar",
+               "role": "Customer",
+               "personType": "Soldier"
+           }
+       ],
+       "catalogList": [
+           {
+               "id": 31,
+               "catalogName": "Top&Shirts",
+               "itemList": [
+                   {
+                       "id": 28,
+                       "name": "Shirt",
+                       "category": "Cloth",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Cloth"
+               ]
+           },
+           {
+               "id": 32,
+               "catalogName": "Kids",
+               "itemList": [
+                   {
+                       "id": 29,
+                       "name": "Lego",
+                       "category": "Toys",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Toys"
+               ]
+           },
+           {
+               "id": 33,
+               "catalogName": "TV",
+               "itemList": [
+                   {
+                       "id": 30,
+                       "name": "LGLCD",
+                       "category": "LCD",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Food"
+               ]
+           }
+       ]
+   }
+
+
+POST
+++++
+
+Add list of stores.
+
+==============   ===============
+Body             Description
+==============   ===============
+List of stores   List of store details
+==============   ===============
+
+.. code-block:: text
+
+    POST /addStores
+.. code-block:: js
+
+   [
+         {
+          "storeName": "blayyh",
+          "owners": [
+              {
+                  "fullName": "test2",
+                  "userName": "test3",
+                  "password": "Meidan",
+                  "role": "Owner",
+                  "personType": "Citizen"
+              },
+              {
+                  "fullName": "test",
+                  "userName": "teest",
+                  "password": "bar",
+                  "role": "Customer",
+                  "personType": "Soldier"
+              }
+          ],
+          "catalogList": [
+              {
+                  "catalogName": "Top&Shirts",
+                  "itemList": [
+                      {
+                          "name": "Shirt",
+                          "category": "Cloth",
+                          "price": 15.5
+                      }
+                  ],
+                  "categoryList": [
+                      "Cloth"
+                  ]
+              },
+              {
+                  "catalogName": "Kids",
+                  "itemList": [
+                      {
+                          "name": "Lego",
+                          "category": "Toys",
+                          "price": 15.5
+                      }
+                  ],
+                  "categoryList": [
+                      "Toys"
+                  ]
+              },
+              {
+                  "catalogName": "TV",
+                  "itemList": [
+                      {
+                          "name": "LGLCD",
+                          "category": "LCD",
+                          "price": 15.5
+                      }
+                  ],
+                  "categoryList": [
+                      "Food"
+                  ]
+              }
+          ]
+      }
+   ]
+
+.. code-block:: js
+
+           [
+                  {
+       "id": 34,
+       "storeName": "blayyh",
+       "owners": [
+           {
+               "id": 12,
+               "fullName": "test2",
+               "userName": "test3",
+               "password": "Meidan",
+               "role": "Owner",
+               "personType": "Citizen"
+           },
+           {
+               "id": 13,
+               "fullName": "test",
+               "userName": "teest",
+               "password": "bar",
+               "role": "Customer",
+               "personType": "Soldier"
+           }
+       ],
+       "catalogList": [
+           {
+               "id": 31,
+               "catalogName": "Top&Shirts",
+               "itemList": [
+                   {
+                       "id": 28,
+                       "name": "Shirt",
+                       "category": "Cloth",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Cloth"
+               ]
+           },
+           {
+               "id": 32,
+               "catalogName": "Kids",
+               "itemList": [
+                   {
+                       "id": 29,
+                       "name": "Lego",
+                       "category": "Toys",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Toys"
+               ]
+           },
+           {
+               "id": 33,
+               "catalogName": "TV",
+               "itemList": [
+                   {
+                       "id": 30,
+                       "name": "LGLCD",
+                       "category": "LCD",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Food"
+               ]
+           }
+       ]
+   }
+           ]
 
 
 PUT
@@ -1316,140 +1316,140 @@ store            store deatils
     PUT /store/update /store/update?userName=test3
 
 .. code-block:: js
-{
-    "id":10,
-    "storeName": "updated",
-    "owners": [
-        {
-            "fullName": "test2",
-            "userName": "test3",
-            "password": "Meidan",
-            "role": "Owner",
-            "personType": "Citizen"
-        },
-        {
-            "fullName": "test",
-            "userName": "teest",
-            "password": "bar",
-            "role": "Customer",
-            "personType": "Soldier"
-        }
-    ],
-    "catalogList": [
-        {
-            "catalogName": "Top&Shirts",
-            "itemList": [
-                {
-                    "name": "Shirt",
-                    "category": "Cloth",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Cloth"
-            ]
-        },
-        {
-            "catalogName": "Kids",
-            "itemList": [
-                {
-                    "name": "Lego",
-                    "category": "Toys",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Toys"
-            ]
-        },
-        {
-            "catalogName": "TV",
-            "itemList": [
-                {
-                    "name": "LGLCD",
-                    "category": "LCD",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Food"
-            ]
-        }
-    ]
-}
+   {
+       "id":10,
+       "storeName": "updated",
+       "owners": [
+           {
+               "fullName": "test2",
+               "userName": "test3",
+               "password": "Meidan",
+               "role": "Owner",
+               "personType": "Citizen"
+           },
+           {
+               "fullName": "test",
+               "userName": "teest",
+               "password": "bar",
+               "role": "Customer",
+               "personType": "Soldier"
+           }
+       ],
+       "catalogList": [
+           {
+               "catalogName": "Top&Shirts",
+               "itemList": [
+                   {
+                       "name": "Shirt",
+                       "category": "Cloth",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Cloth"
+               ]
+           },
+           {
+               "catalogName": "Kids",
+               "itemList": [
+                   {
+                       "name": "Lego",
+                       "category": "Toys",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Toys"
+               ]
+           },
+           {
+               "catalogName": "TV",
+               "itemList": [
+                   {
+                       "name": "LGLCD",
+                       "category": "LCD",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Food"
+               ]
+           }
+       ]
+   }
 
 .. code-block:: js
 
-        {
-    "id": 10,
-    "storeName": "updated",
-    "owners": [
-        {
-            "id": null,
-            "fullName": "test2",
-            "userName": "test3",
-            "password": "Meidan",
-            "role": "Owner",
-            "personType": "Citizen"
-        },
-        {
-            "id": null,
-            "fullName": "test",
-            "userName": "teest",
-            "password": "bar",
-            "role": "Customer",
-            "personType": "Soldier"
-        }
-    ],
-    "catalogList": [
-        {
-            "id": null,
-            "catalogName": "Top&Shirts",
-            "itemList": [
-                {
-                    "id": null,
-                    "name": "Shirt",
-                    "category": "Cloth",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Cloth"
-            ]
-        },
-        {
-            "id": null,
-            "catalogName": "Kids",
-            "itemList": [
-                {
-                    "id": null,
-                    "name": "Lego",
-                    "category": "Toys",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Toys"
-            ]
-        },
-        {
-            "id": null,
-            "catalogName": "TV",
-            "itemList": [
-                {
-                    "id": null,
-                    "name": "LGLCD",
-                    "category": "LCD",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Food"
-            ]
-        }
-    ],
-    "discountMap": {}
-}
+           {
+       "id": 10,
+       "storeName": "updated",
+       "owners": [
+           {
+               "id": null,
+               "fullName": "test2",
+               "userName": "test3",
+               "password": "Meidan",
+               "role": "Owner",
+               "personType": "Citizen"
+           },
+           {
+               "id": null,
+               "fullName": "test",
+               "userName": "teest",
+               "password": "bar",
+               "role": "Customer",
+               "personType": "Soldier"
+           }
+       ],
+       "catalogList": [
+           {
+               "id": null,
+               "catalogName": "Top&Shirts",
+               "itemList": [
+                   {
+                       "id": null,
+                       "name": "Shirt",
+                       "category": "Cloth",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Cloth"
+               ]
+           },
+           {
+               "id": null,
+               "catalogName": "Kids",
+               "itemList": [
+                   {
+                       "id": null,
+                       "name": "Lego",
+                       "category": "Toys",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Toys"
+               ]
+           },
+           {
+               "id": null,
+               "catalogName": "TV",
+               "itemList": [
+                   {
+                       "id": null,
+                       "name": "LGLCD",
+                       "category": "LCD",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Food"
+               ]
+           }
+       ],
+       "discountMap": {}
+   }
 
 
 POST
@@ -1470,12 +1470,12 @@ catalogName      The name of the catalog the item is added to
 
 .. code-block:: js
 
- {
-        
-        "name": "Shirt",
-        "category": "Cloth",
-        "price": 15.5
-}
+    {
+
+           "name": "Shirt",
+           "category": "Cloth",
+           "price": 15.5
+   }
 
 .. code-block:: js
 
@@ -1554,7 +1554,7 @@ catalogName      The name of the catalog the item is added to
         }
     ],
     "discountMap": {}
-}
+   }
 
 POST
 ++++++
@@ -1573,91 +1573,91 @@ catalogName      The name of the catalog the item is added to
     POST /store/deleteItem/{id} /store/deleteItem/10?userName=Meidan&catalogName=Top%26Shirts
 .. code-block:: js
 
- {
-        "id":13,
-        "name": "Shirt",
-        "category": "Cloth",
-        "price": 15.5
-}
+    {
+           "id":13,
+           "name": "Shirt",
+           "category": "Cloth",
+           "price": 15.5
+   }
 
 .. code-block:: js
 
-       {
-    "id": 10,
-    "storeName": "Corona",
-    "owners": [
-        {
-            "id": 1,
-            "fullName": "Meidan",
-            "userName": "Meidan",
-            "password": "Meidan",
-            "role": "Owner",
-            "personType": "Citizen"
-        },
-        {
-            "id": 2,
-            "fullName": "bar",
-            "userName": "bar",
-            "password": "bar",
-            "role": "Customer",
-            "personType": "Soldier"
-        }
-    ],
-    "catalogList": [
-        {
-            "id": 6,
-            "catalogName": "Top&Shirts",
-            "itemList": [
-                {
-                    "id": 3,
-                    "name": "Shirt",
-                    "category": "Cloth",
-                    "price": 15.5
-                },
-                {
-                    "id": 13,
-                    "name": "Shirt",
-                    "category": "Cloth",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Cloth"
-            ]
-        },
-        {
-            "id": 7,
-            "catalogName": "Kids",
-            "itemList": [
-                {
-                    "id": 5,
-                    "name": "Lego",
-                    "category": "Toys",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Toys"
-            ]
-        },
-        {
-            "id": 8,
-            "catalogName": "Food",
-            "itemList": [
-                {
-                    "id": 4,
-                    "name": "Burger",
-                    "category": "Food",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Food"
-            ]
-        }
-    ],
-    "discountMap": {}
-}
+          {
+       "id": 10,
+       "storeName": "Corona",
+       "owners": [
+           {
+               "id": 1,
+               "fullName": "Meidan",
+               "userName": "Meidan",
+               "password": "Meidan",
+               "role": "Owner",
+               "personType": "Citizen"
+           },
+           {
+               "id": 2,
+               "fullName": "bar",
+               "userName": "bar",
+               "password": "bar",
+               "role": "Customer",
+               "personType": "Soldier"
+           }
+       ],
+       "catalogList": [
+           {
+               "id": 6,
+               "catalogName": "Top&Shirts",
+               "itemList": [
+                   {
+                       "id": 3,
+                       "name": "Shirt",
+                       "category": "Cloth",
+                       "price": 15.5
+                   },
+                   {
+                       "id": 13,
+                       "name": "Shirt",
+                       "category": "Cloth",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Cloth"
+               ]
+           },
+           {
+               "id": 7,
+               "catalogName": "Kids",
+               "itemList": [
+                   {
+                       "id": 5,
+                       "name": "Lego",
+                       "category": "Toys",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Toys"
+               ]
+           },
+           {
+               "id": 8,
+               "catalogName": "Food",
+               "itemList": [
+                   {
+                       "id": 4,
+                       "name": "Burger",
+                       "category": "Food",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Food"
+               ]
+           }
+       ],
+       "discountMap": {}
+   }
         
 
 POST
@@ -1678,91 +1678,91 @@ catalogName      The name of the catalog the item is added to
     POST /store/updateItem/{id} /store/updateItem/10?userName=Meidan&catalogName=Top%26Shirts
 .. code-block:: js
 
- {
-        "id":13,
-        "name": "Shirt",
-        "category": "Cloth",
-        "price": 15.5
-}
+    {
+           "id":13,
+           "name": "Shirt",
+           "category": "Cloth",
+           "price": 15.5
+   }
 
 .. code-block:: js
 
-       {
-    "id": 10,
-    "storeName": "Corona",
-    "owners": [
-        {
-            "id": 1,
-            "fullName": "Meidan",
-            "userName": "Meidan",
-            "password": "Meidan",
-            "role": "Owner",
-            "personType": "Citizen"
-        },
-        {
-            "id": 2,
-            "fullName": "bar",
-            "userName": "bar",
-            "password": "bar",
-            "role": "Customer",
-            "personType": "Soldier"
-        }
-    ],
-    "catalogList": [
-        {
-            "id": 6,
-            "catalogName": "Top&Shirts",
-            "itemList": [
-                {
-                    "id": 3,
-                    "name": "Shirt",
-                    "category": "Cloth",
-                    "price": 15.5
-                },
-                {
-                    "id": 13,
-                    "name": "Shirt",
-                    "category": "Cloth",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Cloth"
-            ]
-        },
-        {
-            "id": 7,
-            "catalogName": "Kids",
-            "itemList": [
-                {
-                    "id": 5,
-                    "name": "Lego",
-                    "category": "Toys",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Toys"
-            ]
-        },
-        {
-            "id": 8,
-            "catalogName": "Food",
-            "itemList": [
-                {
-                    "id": 4,
-                    "name": "Burger",
-                    "category": "Food",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Food"
-            ]
-        }
-    ],
-    "discountMap": {}
-}
+          {
+       "id": 10,
+       "storeName": "Corona",
+       "owners": [
+           {
+               "id": 1,
+               "fullName": "Meidan",
+               "userName": "Meidan",
+               "password": "Meidan",
+               "role": "Owner",
+               "personType": "Citizen"
+           },
+           {
+               "id": 2,
+               "fullName": "bar",
+               "userName": "bar",
+               "password": "bar",
+               "role": "Customer",
+               "personType": "Soldier"
+           }
+       ],
+       "catalogList": [
+           {
+               "id": 6,
+               "catalogName": "Top&Shirts",
+               "itemList": [
+                   {
+                       "id": 3,
+                       "name": "Shirt",
+                       "category": "Cloth",
+                       "price": 15.5
+                   },
+                   {
+                       "id": 13,
+                       "name": "Shirt",
+                       "category": "Cloth",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Cloth"
+               ]
+           },
+           {
+               "id": 7,
+               "catalogName": "Kids",
+               "itemList": [
+                   {
+                       "id": 5,
+                       "name": "Lego",
+                       "category": "Toys",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Toys"
+               ]
+           },
+           {
+               "id": 8,
+               "catalogName": "Food",
+               "itemList": [
+                   {
+                       "id": 4,
+                       "name": "Burger",
+                       "category": "Food",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Food"
+               ]
+           }
+       ],
+       "discountMap": {}
+   }
 
 POST
 ++++++
@@ -1786,7 +1786,7 @@ Catalog          catalog details
     POST /store/addCatalog/{id} 
     
 .. code-block:: js
-{
+   {
             "catalogName": "newCatalog",
             "itemList": [
                 {
@@ -1800,97 +1800,97 @@ Catalog          catalog details
 
 .. code-block:: js
 
-      {
-    "id": 10,
-    "storeName": "Corona",
-    "owners": [
-        {
-            "id": 1,
-            "fullName": "Meidan",
-            "userName": "Meidan",
-            "password": "Meidan",
-            "role": "Owner",
-            "personType": "Citizen"
-        },
-        {
-            "id": 2,
-            "fullName": "bar",
-            "userName": "bar",
-            "password": "bar",
-            "role": "Customer",
-            "personType": "Soldier"
-        }
-    ],
-    "catalogList": [
-        {
-            "id": 6,
-            "catalogName": "Top&Shirts",
-            "itemList": [
-                {
-                    "id": 3,
-                    "name": "Shirt",
-                    "category": "Cloth",
-                    "price": 15.5
-                },
-                {
-                    "id": 13,
-                    "name": "Shirt",
-                    "category": "Cloth",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Cloth"
-            ]
-        },
-        {
-            "id": 7,
-            "catalogName": "Kids",
-            "itemList": [
-                {
-                    "id": 5,
-                    "name": "Lego",
-                    "category": "Toys",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Toys"
-            ]
-        },
-        {
-            "id": 8,
-            "catalogName": "Food",
-            "itemList": [
-                {
-                    "id": 4,
-                    "name": "Burger",
-                    "category": "Food",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Food"
-            ]
-        },
-        {
-            "id":9,
-            "catalogName": "newCatalog",
-            "itemList": [
-                {
-                    "name": "Shirt",
-                    "category": "Cloth",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Cloth"
-            ]
-            
-        }
-    ],
-    "discountMap": {}
-}
+         {
+       "id": 10,
+       "storeName": "Corona",
+       "owners": [
+           {
+               "id": 1,
+               "fullName": "Meidan",
+               "userName": "Meidan",
+               "password": "Meidan",
+               "role": "Owner",
+               "personType": "Citizen"
+           },
+           {
+               "id": 2,
+               "fullName": "bar",
+               "userName": "bar",
+               "password": "bar",
+               "role": "Customer",
+               "personType": "Soldier"
+           }
+       ],
+       "catalogList": [
+           {
+               "id": 6,
+               "catalogName": "Top&Shirts",
+               "itemList": [
+                   {
+                       "id": 3,
+                       "name": "Shirt",
+                       "category": "Cloth",
+                       "price": 15.5
+                   },
+                   {
+                       "id": 13,
+                       "name": "Shirt",
+                       "category": "Cloth",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Cloth"
+               ]
+           },
+           {
+               "id": 7,
+               "catalogName": "Kids",
+               "itemList": [
+                   {
+                       "id": 5,
+                       "name": "Lego",
+                       "category": "Toys",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Toys"
+               ]
+           },
+           {
+               "id": 8,
+               "catalogName": "Food",
+               "itemList": [
+                   {
+                       "id": 4,
+                       "name": "Burger",
+                       "category": "Food",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Food"
+               ]
+           },
+           {
+               "id":9,
+               "catalogName": "newCatalog",
+               "itemList": [
+                   {
+                       "name": "Shirt",
+                       "category": "Cloth",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Cloth"
+               ]
+
+           }
+       ],
+       "discountMap": {}
+   }
         
 
 POST
@@ -1919,82 +1919,82 @@ Delete catalog from store by store id
         }
 .. code-block:: js
 
-             {
-    "id": 10,
-    "storeName": "Corona",
-    "owners": [
-        {
-            "id": 1,
-            "fullName": "Meidan",
-            "userName": "Meidan",
-            "password": "Meidan",
-            "role": "Owner",
-            "personType": "Citizen"
-        },
-        {
-            "id": 2,
-            "fullName": "bar",
-            "userName": "bar",
-            "password": "bar",
-            "role": "Customer",
-            "personType": "Soldier"
-        }
-    ],
-    "catalogList": [
-        {
-            "id": 6,
-            "catalogName": "Top&Shirts",
-            "itemList": [
                 {
-                    "id": 3,
-                    "name": "Shirt",
-                    "category": "Cloth",
-                    "price": 15.5
-                },
-                {
-                    "id": 13,
-                    "name": "Shirt",
-                    "category": "Cloth",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Cloth"
-            ]
-        },
-        {
-            "id": 7,
-            "catalogName": "Kids",
-            "itemList": [
-                {
-                    "id": 5,
-                    "name": "Lego",
-                    "category": "Toys",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Toys"
-            ]
-        },
-        {
-            "id": 8,
-            "catalogName": "Food",
-            "itemList": [
-                {
-                    "id": 4,
-                    "name": "Burger",
-                    "category": "Food",
-                    "price": 15.5
-                }
-            ],
-            "categoryList": [
-                "Food"
-            ]
-        }
-    ],
-    "discountMap": {}
-}
+       "id": 10,
+       "storeName": "Corona",
+       "owners": [
+           {
+               "id": 1,
+               "fullName": "Meidan",
+               "userName": "Meidan",
+               "password": "Meidan",
+               "role": "Owner",
+               "personType": "Citizen"
+           },
+           {
+               "id": 2,
+               "fullName": "bar",
+               "userName": "bar",
+               "password": "bar",
+               "role": "Customer",
+               "personType": "Soldier"
+           }
+       ],
+       "catalogList": [
+           {
+               "id": 6,
+               "catalogName": "Top&Shirts",
+               "itemList": [
+                   {
+                       "id": 3,
+                       "name": "Shirt",
+                       "category": "Cloth",
+                       "price": 15.5
+                   },
+                   {
+                       "id": 13,
+                       "name": "Shirt",
+                       "category": "Cloth",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Cloth"
+               ]
+           },
+           {
+               "id": 7,
+               "catalogName": "Kids",
+               "itemList": [
+                   {
+                       "id": 5,
+                       "name": "Lego",
+                       "category": "Toys",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Toys"
+               ]
+           },
+           {
+               "id": 8,
+               "catalogName": "Food",
+               "itemList": [
+                   {
+                       "id": 4,
+                       "name": "Burger",
+                       "category": "Food",
+                       "price": 15.5
+                   }
+               ],
+               "categoryList": [
+                   "Food"
+               ]
+           }
+       ],
+       "discountMap": {}
+   }
 
 
 DELETE
@@ -2031,32 +2031,32 @@ Returns all persons
 
 .. code-block:: js
 
-        [
-    {
-        "id": 1,
-        "fullName": "Meidan",
-        "userName": "Meidan",
-        "password": "Meidan",
-        "role": "Owner",
-        "personType": "Citizen"
-    },
-    {
-        "id": 2,
-        "fullName": "bar",
-        "userName": "bar",
-        "password": "bar",
-        "role": "Customer",
-        "personType": "Soldier"
-    },
-    {
-        "id": 12,
-        "fullName": "Shahaf Pariente",
-        "userName": "Shahaf",
-        "password": "12346578",
-        "role": "Owner",
-        "personType": "Soldier"
-    }
-]
+           [
+       {
+           "id": 1,
+           "fullName": "Meidan",
+           "userName": "Meidan",
+           "password": "Meidan",
+           "role": "Owner",
+           "personType": "Citizen"
+       },
+       {
+           "id": 2,
+           "fullName": "bar",
+           "userName": "bar",
+           "password": "bar",
+           "role": "Customer",
+           "personType": "Soldier"
+       },
+       {
+           "id": 12,
+           "fullName": "Shahaf Pariente",
+           "userName": "Shahaf",
+           "password": "12346578",
+           "role": "Owner",
+           "personType": "Soldier"
+       }
+   ]
 
 
 GET
@@ -2070,14 +2070,14 @@ Returns person by ID
 
 .. code-block:: js
 
-{
-    "id": 1,
-    "fullName": "Meidan",
-    "userName": "Meidan",
-    "password": "Meidan",
-    "role": "Owner",
-    "personType": "Citizen"
-}
+   {
+       "id": 1,
+       "fullName": "Meidan",
+       "userName": "Meidan",
+       "password": "Meidan",
+       "role": "Owner",
+       "personType": "Citizen"
+   }
 
 
 GET
@@ -2097,14 +2097,14 @@ Returns person by userName
 
 .. code-block:: js
 
-{
-    "id": 1,
-    "fullName": "Meidan",
-    "userName": "Meidan",
-    "password": "Meidan",
-    "role": "Owner",
-    "personType": "Citizen"
-}
+   {
+       "id": 1,
+       "fullName": "Meidan",
+       "userName": "Meidan",
+       "password": "Meidan",
+       "role": "Owner",
+       "personType": "Citizen"
+   }
 
 POST
 ++++++
@@ -2124,26 +2124,26 @@ person         person details
     
 .. code-block:: js
 
-{
-    "fullName":"Shahaf Pariente",
-    "userName":"SP",
-    "password":"12346578",
-    "role":"Owner",
-    "personType":"Soldier"
-}
+   {
+       "fullName":"Shahaf Pariente",
+       "userName":"SP",
+       "password":"12346578",
+       "role":"Owner",
+       "personType":"Soldier"
+   }
 
 .. code-block:: js
 
-[
-    {
-        "id": 14,
-        "fullName": "Shahaf Pariente",
-        "userName": "SP",
-        "password": "12346578",
-        "role": "Owner",
-        "personType": "Soldier"
-    }
-]
+   [
+       {
+           "id": 14,
+           "fullName": "Shahaf Pariente",
+           "userName": "SP",
+           "password": "12346578",
+           "role": "Owner",
+           "personType": "Soldier"
+       }
+   ]
 
 POST
 ++++++
@@ -2163,28 +2163,28 @@ Returns person by userName
     POST /addPersons
     
 .. code-block:: js
-[
-   {
-       "fullName":"Shahaf Pariente",
-       "userName":"SP",
-       "password":"12346578",
-       "role":"Owner",
-       "personType":"Soldier"
-   }
-]
+   [
+      {
+          "fullName":"Shahaf Pariente",
+          "userName":"SP",
+          "password":"12346578",
+          "role":"Owner",
+          "personType":"Soldier"
+      }
+   ]
 
 .. code-block:: js
 
-[
-    {
-        "id": 14,
-        "fullName": "Shahaf Pariente",
-        "userName": "SP",
-        "password": "12346578",
-        "role": "Owner",
-        "personType": "Soldier"
-    }
-]
+   [
+       {
+           "id": 14,
+           "fullName": "Shahaf Pariente",
+           "userName": "SP",
+           "password": "12346578",
+           "role": "Owner",
+           "personType": "Soldier"
+       }
+   ]
 
 PUT
 ++++++
@@ -2204,14 +2204,14 @@ person           person details
     
 .. code-block:: js
 
-{
-    "id": 1,
-    "fullName": "updateName",
-    "userName": "Meidan",
-    "password": "Meidan",
-    "role": "Owner",
-    "personType": "Citizen"
-}
+   {
+       "id": 1,
+       "fullName": "updateName",
+       "userName": "Meidan",
+       "password": "Meidan",
+       "role": "Owner",
+       "personType": "Citizen"
+   }
 
 .. code-block:: js
 
