@@ -2109,6 +2109,47 @@ Returns person by userName
 POST
 ++++++
 
+Add new person to DB
+
+==============   ===============
+Body              Description
+==============   ===============
+person         person details
+==============   ===============
+
+
+.. code-block:: text
+
+    POST /addPerson
+    
+.. code-block:: js
+
+{
+    "fullName":"Shahaf Pariente",
+    "userName":"SP",
+    "password":"12346578",
+    "role":"Owner",
+    "personType":"Soldier"
+}
+
+.. code-block:: js
+
+[
+    {
+        "id": 14,
+        "fullName": "Shahaf Pariente",
+        "userName": "SP",
+        "password": "12346578",
+        "role": "Owner",
+        "personType": "Soldier"
+    }
+]
+
+POST
+++++++
+
+Add list of persons to the db
+
 ==============   ===============
 Body              Description
 ==============   ===============
@@ -2119,10 +2160,69 @@ Returns person by userName
 
 .. code-block:: text
 
-    POST /addPerson
+    POST /addPersons
+    
+.. code-block:: js
+[
+   {
+       "fullName":"Shahaf Pariente",
+       "userName":"SP",
+       "password":"12346578",
+       "role":"Owner",
+       "personType":"Soldier"
+   }
+]
 
 .. code-block:: js
 
+[
+    {
+        "id": 14,
+        "fullName": "Shahaf Pariente",
+        "userName": "SP",
+        "password": "12346578",
+        "role": "Owner",
+        "personType": "Soldier"
+    }
+]
+
+PUT
+++++++
+
+Update a person details
+
+==============   ===============
+Body              Description
+==============   ===============
+person           person details
+==============   ===============
+
+
+.. code-block:: text
+
+    POST /addPersons
+    
+.. code-block:: js
+
+{
+    "id": 1,
+    "fullName": "updateName",
+    "userName": "Meidan",
+    "password": "Meidan",
+    "role": "Owner",
+    "personType": "Citizen"
+}
+
+.. code-block:: js
+
+   {
+       "id": 1,
+       "fullName": "updateName",
+       "userName": "Meidan",
+       "password": "Meidan",
+       "role": "Owner",
+       "personType": "Citizen"
+   }
 
 
 
