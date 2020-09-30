@@ -2173,6 +2173,7 @@ Returns person by userName
       }
    ]
 
+Response:
 .. code-block:: js
 
    [
@@ -2204,15 +2205,16 @@ person           person details
     
 .. code-block:: js
 
-   {
-       "id": 1,
-       "fullName": "updateName",
-       "userName": "Meidan",
-       "password": "Meidan",
-       "role": "Owner",
-       "personType": "Citizen"
-   }
-
+      {
+          "id": 1,
+          "fullName": "updateName",
+          "userName": "Meidan",
+          "password": "Meidan",
+          "role": "Owner",
+          "personType": "Citizen"
+      }
+      
+Response:
 .. code-block:: js
 
    {
